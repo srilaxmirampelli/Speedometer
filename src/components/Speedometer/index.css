@@ -1,0 +1,79 @@
+/* Write your CSS here */
+.speedometer-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #07080c;
+}
+.speedometer-container {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.heading {
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+}
+.paragraph {
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+.image {
+  width: 80vw;
+}
+.limit-text {
+  color: white;
+  margin-top: 40px;
+}
+
+.accelerate-btn {
+  padding: 10px;
+  color: white;
+  background-color: #0b69ff;
+  border-width: 0;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-right: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  outline: none;
+}
+.brake-btn {
+  padding: 10px;
+  color: white;
+  background-color: transparent;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 6px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 70px;
+  }
+  .paragraph {
+    font-size: 50px;
+  }
+  .image {
+    width: 60vw;
+  }
+  .limit-text {
+    font-size: 30px;
+  }
+  .accelerate-btn {
+    padding: 20px;
+    font-size: 30px;
+  }
+  .brake-btn {
+    padding: 20px;
+    font-size: 30px;
+  }
+}
